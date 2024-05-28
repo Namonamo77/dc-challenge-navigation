@@ -85,8 +85,8 @@
 
             tl.to(headingStart, {yPercent:-100})
                 .to(headingEnd, {yPercent: -50}, "<")
-                .fromTo(date, {y:50}, {y:0}, "<")
-                .fromTo(lineDash, {x:-50}, {x:0}, "<")
+                .to(date, {y:0}, "<")
+                .to(lineDash, {scaleX:1}, "<")
 
             tl.pause()
 

@@ -56,6 +56,10 @@ ul a p.primary {
   transform: translateY(50%);
 }
 
+p.date {
+  transform: translateY(170%)
+}
+
 ul a .line {
   position: absolute;
   top: 50%;
@@ -63,4 +67,5 @@ ul a .line {
   width: 3%;
   border-bottom: 1px solid white;
   transform-origin: left;
+  transform: scaleX(0);
 }/*# sourceMappingURL=main.css.map */
